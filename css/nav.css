@@ -37,15 +37,13 @@ body{
 }
 
 
-li a.active {
-    color: red;
-
-}
-
-li a:hover
+p,h2
 {
-  color: yellow;
 
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 50px;
+  text-align: justify;;
 }
 li a
 {
@@ -159,21 +157,7 @@ font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
 }*/
-.grid_4{
-  width: 400px;
-  height: 500px;
-  margin:auto;
-}
-.grid_4 p
-{
-  color:white;
 
-  margin:0;
-  display: inline;
-  /*font-family: 'Lobster', cursive;*/
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-}
 
 
 /*for bookstore title*/
@@ -263,7 +247,7 @@ margin-top: -100px;
 }
 
 .backdrop {
-  background: black;
+  background: brown;
   opacity: 0.7;
   height: 100%;
   width: 100%;
@@ -278,4 +262,8 @@ margin-top: -100px;
 }
 .grid {
   background-color: #2b2b2b;
+}
+#footer-icon
+{
+  margin-left:610px;
 }

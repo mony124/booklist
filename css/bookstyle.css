@@ -1,0 +1,56 @@
+.main
+{
+  margin-left:200px;
+  width: 900px;
+  height: 300px;
+  margin-bottom: 160px;
+}
+
+
+.main_left
+{
+  width:400px;
+  height:50px;
+  float: left;
+
+}
+img{
+  border: 5px solid red;
+  width: 200px;
+  height:200px;
+}
+
+
+.main_right
+{
+  width:400px;
+  height:50px;
+  float: right;
+}
+
+.second_main
+{
+margin-left:200px;
+  width: 900px;
+  height: 200px;
+margin-bottom: 150px;
+
+}
+.third_main
+{
+  margin-left:200px;
+  width: 900px;
+  height: 200px;
+
+}
+p{
+  color: red;
+  font-size: 18px;
+  text-align: justify;
+  padding: 5px;
+}
+body {
+    background-image: url("plain1.jpg");
+    background-size: 100%;
+    padding: 10px;
+}

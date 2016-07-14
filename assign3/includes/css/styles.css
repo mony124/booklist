@@ -1,0 +1,165 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+footer{
+  color:#eee;
+  background-color: #777;
+  font-size:11px;
+  padding: 20px;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+   html, body {
+       max-width: 100%;
+       overflow-x: hidden;
+   }
+ul.unstyled
+{
+  list-style:none;
+  padding: 0;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+#img1
+{
+  position:relative;
+}
+
+#img1:after
+{
+  content:'NATURE';
+  position:absolute;
+  top:0;
+  left:0;
+  width:300px;
+  height: 300px;
+  opacity:0;
+  background:rgba(0,0,0,0.6);
+  transition:all 0.5s;
+  color:black;
+}
+#img1:hover{
+  opacity:0.5;
+
+}
+
+#img2
+{
+  position:relative;
+}
+
+#img2:after
+{
+  content:'NATURE';
+  position:absolute;
+  top:0;
+  left:0;
+  width:300px;
+  height: 300px;
+  opacity:0;
+  background:rgba(0,0,0,0.6);
+  transition:all 0.5s;
+  color:black;
+}
+#img2:hover{
+  opacity:0.5;
+
+}
+
+#img3
+{
+  position:relative;
+
+}
+
+#img3:after
+{
+  content:'NATURE';
+  position:absolute;
+  top:0;
+  left:0;
+  width:300px;
+  height: 300px;
+  opacity:0;
+  background:rgba(0,0,0,0.6);
+  transition:all 0.5s;
+  color:black;
+}
+#img3:hover{
+  opacity:0.5;
+
+}
+
+#img4
+{
+  position:relative;
+}
+
+#img4:after
+{
+  content:'NATURE';
+  position:absolute;
+  top:0;
+  left:0;
+  width:300px;
+  height: 300px;
+  opacity:0;
+  background:rgba(0,0,0,0.6);
+  transition:all 0.5s;
+  color:black;
+}
+#img4:hover{
+  opacity:0.5;
+
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.mygrid
+{
+  margin-right: 0px;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}

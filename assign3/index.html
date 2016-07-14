@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Website-assign3</title>
+		<meta name="description" content="website for books">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body>
+
+<!--start of navbar-->
+	 <div class="navbar navbar-default navbar-inverse navbar-fixed-top">
+
+		 <div class="container">
+
+			 <a class="navbar-brand" href="/"><img src="images/logores.png" alt="my logo"></a>
+			 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-responsive-collapse" aria-expanded="false">
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        </button>
+
+					<div class="collapsed navbar-collapse navbar-responsive-collapse">
+
+							<ul class="nav navbar-nav pull-right" id="mynavbar">
+								<li class="active">
+									<a href="#">HOME</a>
+								</li>
+								<li>
+									<a href="#">ABOUT</a>
+								</li>
+								<li>
+									<a href="#">WORKS</a>
+								</li>
+								<li>
+									<a href="#">PARTNERS</a>
+								</li>
+								<li>
+									<a href="#">CONTACTS</a>
+								</li>
+							</ul><!--end of nav list-->
+					</div><!--end of navbar collapse-->
+
+				</div><!--end of container withhin navabar-->
+
+				</div><!--end of navbar-->
+
+<!--start of carousel-->
+
+<div class="carousel slide" id="myCarousel">
+<div class=container-fluid>
+	<!--indicators-->
+	<ol class="carousel-indicators">
+			<li class="active" data-slide-to="0" data-target="#myCarousel" data-ride="Carousel"></li>
+			<li data-slide-to="1" data-target="#myCarousel"></li>
+			<li data-slide-to="2" data-target="#myCarousel"></li>
+	</ol>
+
+<!--end of indicators-->
+	<!--wrapper for slides-->
+	<div class="carousel-inner">
+		   <div class="item active" id="slide1">
+			    <img src="images/slide1.jpg" alt="slide1" class="image">
+			    <div class="carousel-caption">
+				     <h4>FIRST SLIDE</h4>
+				     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>
+	   	    </div><!--end carousel caption-->
+	     </div><!--end item-->
+
+		<div class="item" id="slide2">
+			<img src="images/slide2.jpg" alt="slide2" class="image">
+				<div class="carousel-caption">
+					<h4>SECOND SLIDE</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>
+		   	</div><!--end carousel caption-->
+	</div><!--end item-->
+
+				<div class="item" id="slide3">
+					<img src="images/slide3.jpg" alt="slide3"  class="image">
+	  			<div class="carousel-caption">
+	  				<h4>THIRD SLIDE</h4>
+	  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>
+	  	   	</div><!--end carousel caption-->
+	</div><!--end item-->
+</div><!--carousel inner-->
+
+<!--carousel controls-->
+<a class="left carousel-slide" data-slide="prev" href="#mycarousel"><span class="icon-prev"></span></a>
+<a class="right carousel-slide" data-slide="next" href="#mycarousel"><span class="icon-next"></span></a>
+<!--end of carousel controls-->
+</div><!--end mycarousel-->
+
+</div><!--end of container-fluid-->
+
+<!--start of grid system using panel concept-->
+
+<div class="row" id="features">
+	<div class="container-fluid">
+	<div class="col-sm-3 col-md-4">
+
+		<img id="img1" src="images/gridres1.jpg" alt="panel1">
+
+	</div><!-- end feature -->
+
+	<div class="col-sm-3 col-md-4 feature">
+
+		 	<img id="img2" src="images/gridres2.jpg" alt="panel2">
+
+	</div><!-- end feature -->
+
+	<div class="col-sm-3 col-md-4 feature">
+
+			<img id="img3" src="images/gridres6.jpg" alt="panel2">
+
+	</div><!-- end features -->
+	<div class="col-sm-3 col-md-4">
+
+		<img  id="img4" src="images/gridres5.jpg" alt="panel1">
+
+	</div><!-- end feature -->
+</div>
+
+
+</div>
+<!--footer-->
+<footer>
+	<div class="container">
+			<div class="row">
+						<div class="col-sm-4">
+              <h4> copyrights &copy; reserved</h4>
+						</div>
+
+						<div class="col-sm-4">
+							<h5>FOLLOW US</h5>
+							<ul class="unstyled">
+								<li><a href="#">TWITTER</a></li>
+									<li><a href="#"/>FACEBOOK</li>
+										<li><a href="#"/>INSTAGRAM</li>
+											<li><a href="#"/>PINTEREST</li>
+							</ul>
+						</div>
+
+
+
+			</div><!--end of row-->
+	</div><!--end of container-->
+
+
+
+
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	</body>
+</html>

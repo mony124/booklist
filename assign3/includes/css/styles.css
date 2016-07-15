@@ -39,7 +39,7 @@ ul.unstyled
 
 li
 {
-  
+
   list-style:none;
   padding: 0;
  font-size: 18px;
@@ -57,6 +57,24 @@ li
    Carousel
    -------------------------------------- */
 
+img#img2.im{
+  width:100%;
+}
+img#img3.im{
+  width:100%;
+}
+img#img4.im{
+  width:100%;
+}
+img#img5.im{
+  width:100%;
+}
+img#img6.im{
+  width:100%;
+}
+img#img1.im{
+  width:100%;
+}
 
 #img1
 {
@@ -158,6 +176,57 @@ li
   opacity:0.5;
 
 }
+
+#img5
+{
+  width: 400px;
+  height:242px;
+  position:relative;
+}
+
+#img5:after
+{
+  content:'NATURE';
+  position:absolute;
+  top:0;
+  left:0;
+  width:300px;
+  height: 300px;
+  opacity:0;
+  background:rgba(0,0,0,0.6);
+  transition:all 0.5s;
+  color:black;
+}
+#img5:hover{
+  opacity:0.5;
+
+}
+
+#img6
+{
+  width: 400px;
+  height:242px;
+  position:relative;
+}
+
+#img6:after
+{
+  content:'NATURE';
+  position:absolute;
+  top:0;
+  left:0;
+  width:300px;
+  height: 300px;
+  opacity:0;
+  background:rgba(0,0,0,0.6);
+  transition:all 0.5s;
+  color:black;
+}
+#img6:hover{
+  opacity:0.5;
+
+}
+
 /* --------------------------------------
    Global Styles
    -------------------------------------- */

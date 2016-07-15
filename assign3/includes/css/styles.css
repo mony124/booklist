@@ -33,7 +33,7 @@ ul.unstyled
 {
   list-style:none;
   padding: 0;
-    font-size: 18px;
+    font-size: 15px;
     color:white;
   }
 
@@ -42,7 +42,7 @@ li
 
   list-style:none;
   padding: 0;
- font-size: 18px;
+ font-size: 15px;
 }
  a
 {
@@ -75,7 +75,18 @@ img#img6.im{
 img#img1.im{
   width:100%;
 }
-
+#services
+{
+  text-align:center;
+}
+.row4
+{
+  margin-bottom:30px;
+}
+.panel-title
+{
+  text-align: center;
+}
 #img1
 {
    width: 400px;
@@ -117,9 +128,9 @@ img#img1.im{
   width:300px;
   height: 300px;
   opacity:0;
-  background:rgba(0,0,0,0.6);
+  background:black;
   transition:all 0.5s;
-  color:black;
+  color:white;
 }
 #img2:hover{
   opacity:0.5;

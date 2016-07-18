@@ -13,13 +13,37 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Layout
    -------------------------------------- */
-footer{
-  color:#eee;
-  background-color: #777;
-  font-size:11px;
-  padding: 20px;
+
+
+
+.feedback
+{
+  background-image: url("../../images/image_1.jpg");
 }
 
+.contact
+{
+  margin-top: 50px;
+}
+
+
+
+.row2
+{
+  background-image: url("../../images/hero2.jpg") top center norepeat;
+}
+
+
+.row2
+{
+  margin-top: 100px;
+}
+
+
+
+.navbar-brand {
+  padding: 13px 15px;
+}
 
 /* --------------------------------------
    Typography
@@ -100,12 +124,12 @@ img#img1.im{
   position:absolute;
   top:0;
   left:0;
-  width:300px;
-  height: 300px;
+  width:100%;
+  height: 100%;
   opacity:0;
-  background:rgba(0,0,0,0.6);
+  background:black;
   transition:all 0.5s;
-  color:black;
+  color:white;
 }
 #img1:hover{
   opacity:0.5;
@@ -237,6 +261,9 @@ img#img1.im{
   opacity:0.5;
 
 }
+.container-fluid {
+    padding: 0px;
+}
 
 /* --------------------------------------
    Global Styles
@@ -246,6 +273,57 @@ img#img1.im{
   margin-right: 0px;
 }
 
+
+#myCarousel .item 
+{
+  height: 300px;
+}
+#slide1 {
+  background: url('../../images/slide1.jpg') top center no-repeat;
+}
+
+#slide2 {
+  background: url('../../images/slide2.jpg') top center no-repeat;
+}
+
+#slide3 {
+  background: url('../../images/slide3.jpg') top center no-repeat;
+}
+/*footer*/
+footer
+{
+  background-color: grey;
+  color: white;
+}
+.socialbuttons ul
+{
+color:white;
+margin-top: 10px;
+font-size: 30px;
+
+}
+/*footer-end*/
+
+.contact-info {
+  margin-bottom: 4em;
+  padding: 0;
+}
+.contact-info li {
+  list-style: none;
+  margin: 0 0 20px 0;
+  position: relative;
+  padding-left: 40px;
+}
+.contact-info li i {
+  position: absolute;
+  top: .3em;
+  left: 0;
+  font-size: 22px;
+  color: #118DF0;
+}
+.contact-info li a {
+  color: #118DF0;
+}
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
@@ -257,11 +335,50 @@ img#img1.im{
 }
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+
+#myCarousel .item { height: 400px; }
+  
+  #slide1 {
+    background: url('../../images/slide1.jpg') top center no-repeat;
+  }
+  
+  #slide2 {
+    background: url('../../images/slide2.jpg') top center no-repeat;
+  }
+  
+  #slide3 {
+    background: url('../../images/slide3.jpg') top center no-repeat;
+  }
+  
+  .carousel-caption {
+    font-size: 16px;
+  }
+  
+  .carousel-caption h4 {
+    font-size: 22px;
+  }
+  
+
 
 }
 
 /* Large desktop */
 @media (min-width: 1200px) {
+
+#myCarousel .item { height: 600px; }
+  
+  #slide1 {
+    background: url('../../images/slide1.jpg') top center no-repeat;
+  }
+  
+  #slide2 {
+    background: url('../../images/slide2.jpg') top center no-repeat;
+  }
+  
+  #slide3 {
+    background: url('../../images/slide3.jpg') top center no-repeat;
+  }
+
 
 }

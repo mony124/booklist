@@ -25,16 +25,7 @@ font-family: 'Lobster', cursive;
 }
 
 
-li a.active {
-    background-color: red;
-    color: white;
-}
 
-li a:hover
-{
-  background-color: yellow;
-
-}
 li a
 {
 

@@ -43,13 +43,13 @@ font-family: 'Lobster', cursive;
 
 
 li a.active {
-    background-color: red;
+    text-color: red;
     color: white;
 }
 
 li a:hover
 {
-  background-color: yellow;
+  text-color: yellow;
 
 }
 li a
@@ -146,11 +146,11 @@ h2 span {
 }
 body
 {
-  background-image: url("booback.jpg");
+  background-image: url("../images/booback.jpg");
 }
 p,h3,h1
 {
-  font-family: 'Lobster', cursive;
+  
   color: white;
   font-weight: bold;
 }

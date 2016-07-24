@@ -324,6 +324,12 @@ font-size: 30px;
 .contact-info li a {
   color: #118DF0;
 }
+
+
+.feedback
+{
+  margin-top: 20px;
+}
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
